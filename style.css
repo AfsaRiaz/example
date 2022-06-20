@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(88, 158, 217);
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align:center;
+}
+
+.container .logo{
+    font-size: 65px;
+}
+
+.container .header{
+    color: white;
+}
+
+.container .header .heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.container .loginForm .data{
+    background-color: white;
+}
+
+.container .loginForm .data input
+{   font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    border:none;
+    padding: 0px;
+    margin:0px;
+    outline: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-indent: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.container .loginForm .data input[type="password"]
+{
+    border-top: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+     border-bottom-right-radius: 6px;
+     border-bottom-left-radius: 6px;
+}
+
+.container .loginForm input[type="submit"]{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(33, 134, 212);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    padding: 14px 0px;
+    border-radius: 6px;
+}
+
+.container .loginForm input[type="submit"]:hover{
+    background-color: rgb(5, 115, 199);
+    cursor: pointer;
+}
+
+.container .footer p{
+    color: white;
+    font-size: 19px;
+}
+
+.container .footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
